@@ -13,13 +13,13 @@ body{
 
 .core-team{
     max-width: 1220px;
-    margin: 40px auto;
+    margin: auto;
     padding: 20px;
 }
 
 .title{
   border-left: 5px solid rgb(0, 50, 233);
-  padding: 10px 10px;
+  padding: 0px 10px;
   font-weight: 800;
   height: 30px;
   margin-bottom: 30px;
@@ -72,5 +72,9 @@ body{
 
     .Title{
         padding-bottom: 20px;
+    }
+
+    .boxes:hover{
+        transform: none;
     }
 }

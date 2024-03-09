@@ -1,0 +1,58 @@
+#CN-img{
+    max-height: 400px;
+    max-width: 400px;
+    border-radius: 20px;
+    margin: 30px 25px;
+    box-shadow: 0px 0px 10px white;
+  
+  }
+
+#CNdetails{
+    padding: 0px 50px 10px;
+}
+
+#CNhead{
+    border-left: 5px solid blue;
+    font-size: 25px;
+    font-size: 30px;
+    padding: 0px 20px;
+    margin: 0px 120px;
+}
+
+#Speakers-img{
+    max-width: 1024px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    text-align: center;
+    margin: auto;
+
+}
+
+#Speakers-img img{
+    max-width: 300px;
+    margin: 10px;
+    max-height: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px white;
+}
+
+
+@media screen and (max-width:1050px) {
+    #Content{
+        display: block;
+        padding: 10px;
+    }
+
+    #CN-img{
+        height: 300px;
+        width:300px;
+    }
+
+    #CNdetails{
+        padding: 10px ;
+    }
+    #CNhead{
+        margin: 0px 20px;
+    }
+
+}

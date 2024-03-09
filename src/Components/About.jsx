@@ -3,7 +3,7 @@ const About = () => {
   return (
     <div className="about-container">
         <div className="about-content">
-          <h1>ABOUT US</h1>
+          <h2 id='aboutHead'>ABOUT US</h2>
           <p className="about-para">
             Step into the dynamic realm of Aarohan, the beating heart of
             innovation at Dronacharya Group of Institutes. Aarohan isn't just a

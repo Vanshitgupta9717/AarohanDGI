@@ -3,34 +3,38 @@ import "../Styles/Index.css";
 import "../Styles/Index-Responsive.css";
 import { Link } from "react-router-dom";
 import event1 from "./Images/Events/Codezinth.png";
+import event2 from "./Images/Events/CodeNexa.jpg";
 
 const Index = () => {
   useEffect(() => {
-    const accordion = document.querySelector('.faq-accordion-container');
-    const items = accordion.querySelectorAll('li');
-    const questions = accordion.querySelectorAll('.faq-question');
+    const accordion = document.querySelector(".faq-accordion-container");
+    const items = accordion.querySelectorAll("li");
+    const questions = accordion.querySelectorAll(".faq-question");
 
     function toggleFaqAccordion() {
       const thisItem = this.parentNode;
 
-      items.forEach(item => {
+      items.forEach((item) => {
         if (thisItem === item) {
-          thisItem.classList.toggle('default-faq-open');
+          thisItem.classList.toggle("default-faq-open");
           return;
         }
 
-        item.classList.remove('default-faq-open');
+        item.classList.remove("default-faq-open");
       });
     }
 
-    questions.forEach(question => question.addEventListener('click', toggleFaqAccordion));
+    questions.forEach((question) =>
+      question.addEventListener("click", toggleFaqAccordion)
+    );
 
     // Clean up the event listeners when the component is unmounted
     return () => {
-      questions.forEach(question => question.removeEventListener('click', toggleFaqAccordion));
+      questions.forEach((question) =>
+        question.removeEventListener("click", toggleFaqAccordion)
+      );
     };
   }, []); // Empty dependency array ensures useEffect runs once after initial render
-
 
   return (
     <>
@@ -42,7 +46,7 @@ const Index = () => {
             <b>D</b>efining <b>G</b>rowth and <b>I</b>nnovation
           </p>
           <div className="btn">
-            <Link to="/register" className="btn1">
+            <Link to="https://chat.whatsapp.com/JTx2fuugHurLenaiG5WkW0" className="btn1">
               JOIN NOW
             </Link>
             <Link to="/about" className="btn2">
@@ -105,19 +109,19 @@ const Index = () => {
       {/* About section end */}
 
       {/* Event section start */}
-
+      <div className="eventhead"><h1> OUR EVENTS</h1></div>
+      
       <div className="event-container">
         <div className="events">
-          <h1> OUR EVENTS</h1>
           <div className="Events">
-            <figure className="figuree">
-              <figure>
-                <img src={event1} alt="Codezenith" />
-              </figure>
-              <figcaption className="figcaptionn">
-                CodeZenith : A coding Challenge by <b>AAROHAN</b>
-              </figcaption>
-            </figure>
+            <div>
+              <img src={event1} alt="Codezenith" />
+            </div>
+          </div>
+          <div className="Events">
+            <div>
+              <img src={event2} alt="CodeNexa" />
+            </div>
           </div>
         </div>
       </div>
@@ -131,55 +135,89 @@ const Index = () => {
           <h3>Frequently Asked Questions</h3>
           <li class="default-faq-open">
             <div class="faq-question">
-              <h2>What is Aarohan and what does it offer to its members?</h2>
+              <h4>What is Aarohan and what does it offer to its members?</h4>
             </div>
             <div class="faq-answer">
               <p>
-              Aarohan is a dynamic coding club at Dronacharya Group of Institutes, providing a vibrant space for passionate individuals to explore the realms of programming excellence. Members can expect an environment that fosters creativity, collaboration, and hands-on learning, transcending traditional coding experiences.
+                Aarohan is a dynamic coding club at Dronacharya Group of
+                Institutes, providing a vibrant space for passionate individuals
+                to explore the realms of programming excellence. Members can
+                expect an environment that fosters creativity, collaboration,
+                and hands-on learning, transcending traditional coding
+                experiences.
               </p>
             </div>
           </li>
           <li>
             <div class="faq-question">
-              <h2>How can I join Aarohan, and is there any specific skill level required?</h2>
+              <h4>
+                How can I join Aarohan, and is there any specific skill level
+                required?
+              </h4>
               <span class="fa fa-caret-down"></span>
             </div>
             <div class="faq-answer">
               <p>
-              Joining Aarohan is open to all enthusiasts! Whether you're a beginner or an experienced coder, our club welcomes individuals at all skill levels. The emphasis is on collaboration and continuous improvement, ensuring everyone finds value and support in their coding journey.
+                Joining Aarohan is open to all enthusiasts! Whether you're a
+                beginner or an experienced coder, our club welcomes individuals
+                at all skill levels. The emphasis is on collaboration and
+                continuous improvement, ensuring everyone finds value and
+                support in their coding journey.
               </p>
             </div>
           </li>
           <li>
             <div class="faq-question">
-              <h2>What activities and events does Aarohan organize throughout the year?</h2>
+              <h4>
+                What activities and events does Aarohan organize throughout the
+                year?
+              </h4>
               <span class="fa fa-caret-down"></span>
             </div>
             <div class="faq-answer">
               <p>
-              Aarohan hosts a variety of engaging activities and events, ranging from exhilarating hackathons to insightful workshops. These events provide members with opportunities to challenge themselves, collaborate with peers, and stay at the forefront of the ever-evolving world of coding.
+                Aarohan hosts a variety of engaging activities and events,
+                ranging from exhilarating hackathons to insightful workshops.
+                These events provide members with opportunities to challenge
+                themselves, collaborate with peers, and stay at the forefront of
+                the ever-evolving world of coding.
               </p>
             </div>
           </li>
           <li>
             <div class="faq-question">
-              <h2>How does Aarohan support members' professional growth in the tech industry?</h2>
+              <h4>
+                How does Aarohan support members' professional growth in the
+                tech industry?
+              </h4>
               <span class="fa fa-caret-down"></span>
             </div>
             <div class="faq-answer">
               <p>
-              Aarohan serves as a launchpad for innovation, offering a platform where members not only learn to code but also develop practical skills essential for the tech industry. The club provides insights, mentorship, and networking opportunities to support members in their professional growth and development.
+                Aarohan serves as a launchpad for innovation, offering a
+                platform where members not only learn to code but also develop
+                practical skills essential for the tech industry. The club
+                provides insights, mentorship, and networking opportunities to
+                support members in their professional growth and development.
               </p>
             </div>
           </li>
           <li>
             <div class="faq-question">
-              <h2>What makes Aarohan different from other coding clubs or forums?</h2>
+              <h4>
+                What makes Aarohan different from other coding clubs or forums?
+              </h4>
               <span class="fa fa-caret-down"></span>
             </div>
             <div class="faq-answer">
               <p>
-              Aarohan stands out as a vibrant ecosystem driven by a collective enthusiasm for pushing boundaries. It goes beyond being a traditional coding club; it's a community where the language of code transcends into the language of possibilities. Members experience a transformative journey, finding inspiration, collaboration, and a shared commitment to shaping the future through technology.
+                Aarohan stands out as a vibrant ecosystem driven by a collective
+                enthusiasm for pushing boundaries. It goes beyond being a
+                traditional coding club; it's a community where the language of
+                code transcends into the language of possibilities. Members
+                experience a transformative journey, finding inspiration,
+                collaboration, and a shared commitment to shaping the future
+                through technology.
               </p>
             </div>
           </li>

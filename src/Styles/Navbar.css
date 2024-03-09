@@ -27,7 +27,6 @@ a{
 
 .navmenu ul{
     display: flex;
-    justify-content: flex-end;
     list-style: none;
     margin-right: 80px;
 }

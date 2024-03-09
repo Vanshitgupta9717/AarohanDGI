@@ -5,7 +5,9 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import About from './Components/About';
 import Footer from './Components/Footer';
 import Team from './Components/Team';
-import Events from './Components/Events';
+import Events from './Components/Events/Events';
+import CodeZenith from './Components/Events/CodeZenith';
+import CodeNexa from './Components/Events/CodeNexa';
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
         <Route path='/about' element={<About/>} />
         <Route path='/team' element={<Team/>} />
         <Route path='/events' element={<Events/>} />
+        <Route path='/events/CodeZenith' element={<CodeZenith/>} />
+        <Route path='/events/CodeNexa' element={<CodeNexa/>} />
       </Routes>
       <Footer/>
     </Router>

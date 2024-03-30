@@ -4,6 +4,7 @@ import "../Styles/Index-Responsive.css";
 import { Link } from "react-router-dom";
 import event1 from "./Images/Events/Codezinth.png";
 import event2 from "./Images/Events/CodeNexa.jpg";
+import Front from "./Images/Front.webp";
 
 const Index = () => {
   useEffect(() => {
@@ -39,8 +40,11 @@ const Index = () => {
   return (
     <>
       {/* Front section start */}
-      <div className="container">
-        <div className="content">
+      {/* <div className="container">
+        
+        
+        
+        <div className= "content">
           <h1>WELCOME TO AAROHAN</h1>
           <p>
             <b>D</b>efining <b>G</b>rowth and <b>I</b>nnovation
@@ -54,11 +58,100 @@ const Index = () => {
             </Link>
           </div>
         </div>
-      </div>
+      </div> */}
+      <main className="main-wrapper is-no-top-margin">
+        <section id="spotlight-new" className="section is-spotlight-new">
+          <div className="padding-section-small">
+            <div className="padding-global">
+              <div className="container-medium">
+                <div className="text-align-center">
+                  <a className="home-new_label-component w-inline-block">
+                    <div className="label-new_content">
+                      <div>Defining Growth & Innovation</div>
+                      <div className="home_2-0-arrow-wrapper">
+                      <img src="https://assets-global.website-files.com/637359c81e22b715cec245ad/6486fd415a318e62764b3a6c_arrow-right.svg" loading="lazy" alt="" />
+                      </div>
+                    </div>
+                  </a>
+                  <div className="padding-bottom padding-small">
+                  <h1 class="text-weight-semibold">WELCOME TO AAROHAN</h1>
+                  <div class="padding-bottom padding-small"></div>
+                  <div className="container-xsmall">
+                    <div className="text-size-medium text-color-grey8">
+                    "Where Passion Fuels Progress, Creativity Sparks Innovation, and Collaboration Drives Growth"
+                      </div> 
+                  </div>
+                  <div className="home-new_hero-ftr-wrapper">
+                    
+                      <a href="https://chat.whatsapp.com/JTx2fuugHurLenaiG5WkW0" className="home-new_hero-ftr-card w-inline-block">
+                      <div className="w-node-_9c44c26b-3476-13c4-36e7-7976923c550a-247aa337">
+                      <h3 class="heading-style-h5">Join Us</h3>
+                      <div class="padding-bottom padding-custom1"></div>
+                      <div class="text-weight-medium text-color-grey8">Code with Us at <br/>Aarohan DGI!</div>
+                      </div>
+                      <div id="w-node-_9c44c26b-3476-13c4-36e7-7976923c5512-247aa337" className="div_relative">
+                        <div className="home-new_hero-ftr-arrow">
+                          <div className="icon-1x1-small  w-embed">
+                          <svg width="24" height="25" viewBox="0 0 40 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M5 12.5H19M19 12.5L12 5.5M19 12.5L12 19.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                          </svg>
+                          </div>
+                        </div>
+                      </div>
+                      </a>
+                      <a href="/about" className="home-new_hero-ftr-card w-inline-block">
+                      <div className="w-node-_9c44c26b-3476-13c4-36e7-7976923c550a-247aa337">
+                      <h3 class="heading-style-h5">Learn More</h3>
+                      <div class="padding-bottom padding-custom1"></div>
+                      <div class="text-weight-medium text-color-grey8">Discover Endless Possibilities<br/></div>
+                      </div>
+                      <div id="w-node-_9c44c26b-3476-13c4-36e7-7976923c5512-247aa337" className="div_relative">
+                        <div className="home-new_hero-ftr-arrow">
+                          <div className="icon-1x1-small  w-embed">
+                          <svg width="24" height="25" viewBox="0 0 40 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M5 12.5H19M19 12.5L12 5.5M19 12.5L12 19.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                          </svg>
+                          </div>
+                        </div>
+                      </div>
+                      </a>
+                      <a href="https://www.instagram.com/aarohan_dgi/" className="home-new_hero-ftr-card w-inline-block">
+                      <div className="w-node-_9c44c26b-3476-13c4-36e7-7976923c550a-247aa337">
+                      <h3 class="heading-style-h5">Connect</h3>
+                      <div class="padding-bottom padding-custom1"></div>
+                      <div class="text-weight-medium text-color-grey8">Stay Linked, Stay Informed<br/></div>
+                      </div>
+                      <div id="w-node-_9c44c26b-3476-13c4-36e7-7976923c5512-247aa337" className="div_relative">
+                        <div className="home-new_hero-ftr-arrow">
+                          <div className="icon-1x1-small  w-embed">
+                          <svg width="24" height="25" viewBox="0 0 40 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M5 12.5H19M19 12.5L12 5.5M19 12.5L12 19.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                          </svg>
+                          </div>
+                        </div>
+                      </div>
+                      </a>
+                  </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <img src="https://assets-global.website-files.com/637359c81e22b715cec245ad/6464a7ec8c8fd22869e80364_home-hero-new-bg1.svg" loading="eager" alt="" class="home-new_bg1"></img>
+        </section>
+      </main>
+
 
       {/* Front section end */}
 
       {/* About section start */}
+
+
+      {/* <section className="section overflow-hidden">
+        <div className="div_relative is-max-width-100rem"></div> 
+      </section> */}
+
+    
 
       <div className="about-container">
         <div className="about-content">

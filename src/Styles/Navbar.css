@@ -1,3 +1,212 @@
+/* .nav_container {
+    z-index: 100;
+    max-width: 85rem;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.842);
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    display: flex;
+    position: relative;
+}
+.nav-mobile_bg {
+    display: none;
+}
+.nav_logo-link-wrapper {
+    flex: auto;
+    margin-right: 32px;
+    padding-bottom: 4px;
+}
+.nav_logo-link {
+    min-width: 152px;
+    flex: 0 2 auto;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+}
+.w-nav-brand {
+    float: left;
+    color: #333;
+    text-decoration: none;
+    position: relative;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+    background-color: transparent;
+  }
+  .nav_menu {
+    width: 100%;
+    flex: auto;
+    justify-content: space-between;
+    display: flex;
+}
+.w-nav-menu {
+    float: right;
+    position: relative;
+}
+.nav_menu-item-wrap {
+    flex: 0 auto;
+    display: flex;
+}
+.nav_link-wrapper.solutions, .nav_link-wrapper.developers, .nav_link-wrapper.community, .nav_link-wrapper.resources, .nav_link-wrapper.company {
+    width: 110px;
+}
+.nav_link-wrapper {
+    cursor: default;
+    justify-content: center;
+    align-items: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    display: flex;
+    margin-left: 24px;
+}
+.nav_link:last-child {
+    margin-right: 0rem;
+}
+.nav_link {
+    opacity: 1;
+    color: var(--gray--10);
+    letter-spacing: .0075rem;
+    text-transform: capitalize;
+    cursor: pointer;
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 12px;
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: none;
+    transition: opacity .2s,color .2s;
+    display: flex;
+}
+
+.nav_link:hover {
+    color: #af89ee;
+}
+.nav_link-icon {
+    transition: transform 0.2s ease;
+}
+.nav_link-icon {
+    width: 1rem;
+    height: 1rem;
+    flex: none;
+    display: none;
+}
+svg:not(:root) {
+    overflow: hidden;
+}
+.button-group.is-navbar {
+    flex-wrap: nowrap;
+}
+.button-group {
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
+    flex-flow: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+}
+.nav_sm-link {
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+    transition-property: none;
+    position: relative;
+}
+a.nav_sm-link {
+    color: #fff;
+    text-decoration: none;
+    transition: color .1s;
+}
+.nav_sm-link:hover{
+    color: #af89ee;
+}
+.w-inline-block {
+    max-width: 100%;
+    display: inline-block;
+}
+.embed_cursor-pointer {
+    cursor: pointer;
+}
+.icon-1x1-medium {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.button.is-small {
+    padding: 0.625rem 0.875rem;
+    font-size: .75rem;
+}
+.button {
+    color: #fff;
+    text-align: center;
+    text-transform: capitalize;
+    cursor: pointer;
+    background-image: linear-gradient(#8a46ff,#6e38cc);
+    border-radius: 3rem;
+    padding: 10px 14px;
+    font-size: .8rem;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all .2s;
+    position: relative;
+}
+.w-button {
+    color: #fff;
+    line-height: inherit;
+    cursor: pointer;
+    background-color: #3898ec;
+    border: 0;
+    border-radius: 0;
+    padding: 9px 15px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.nav-mobile_menu-wrapper {
+    display: none;
+}
+.nav-mobile_dropdown {
+    width: 100%;
+}
+.w-dropdown {
+    text-align: left;
+    z-index: 900;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    position: relative;
+}
+.w-dropdown-toggle {
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    padding-right: 40px;
+    display: inline-block;
+}
+.nav-mobile_toggle {
+    width: 100%;
+    color: #fff;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    font-weight: 500;
+}
+.w-icon-dropdown-toggle {
+    width: 1em;
+    height: 1em;
+    margin: auto 20px auto auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+ */
+
+
 .nav{
     position: fixed;
     padding: 0 30px 0 20px;
@@ -18,9 +227,10 @@
 }
 a{
     text-decoration: none;
-    color: rgba(153, 152, 152, 0.768);
+    color: #fff;
     transition: all 0.5s;
 }
+
 .header{
     margin-left: 30px;
 }
@@ -43,7 +253,7 @@ li>a {
 }
 
 li>a:hover{
-    color: rgb(255, 255, 255);
+    color: #af89ee;
 }
 
 .hamburger{

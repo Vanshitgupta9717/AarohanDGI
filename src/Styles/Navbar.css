@@ -262,7 +262,7 @@ li>a:hover{
 
 @media screen and (max-width:1050px) {
     .nav{
-        width: 98vw;
+        width: 100vw;
         margin-left: -50px;
     }
 

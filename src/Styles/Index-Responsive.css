@@ -17,6 +17,17 @@
       margin-top: 90px;
     }
 
+    .section.is-spotlight-new{
+      padding-top: 50px;
+    }
+
+    .home-new_hero-ftr-wrapper{
+      display: block;
+    }
+
+    .home-new_hero-ftr-card{
+      margin: 20px 0px;
+    }
 
     .about-content {
         padding: 10px 20px 10px 20px;

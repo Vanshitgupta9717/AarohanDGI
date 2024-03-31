@@ -33,6 +33,7 @@ ul{
 @media screen and (max-width: 750px) {
 
     .footer{
+        margin-top: 100px;
         display:  block;
         padding: 30px 50px;
         text-align: center;

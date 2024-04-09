@@ -148,13 +148,47 @@ const Index = () => {
       {/* About section start */}
 
 
-      {/* <section className="section overflow-hidden">
-        <div className="div_relative is-max-width-100rem"></div> 
-      </section> */}
+      <section id="green" class="section is-gradient-bg overflow-hidden">
+      <div class="padding-global">
+        <div class="container-medium">
+          <div class="padding-section-medium">
+            <div class="text-align-center">
+              <div class="align-center max-width-large is-mobile-text-align-left">
+                <div class="heading_wrapper">
+                  <h2 class="heading-style-h1">ABOUT US
+                  </h2>
+                  <div data-w-id="9c44c26b-3476-13c4-36e7-7976923c5629" class="heading-fader_trigger">
+                    <div class="heading-fader_mask">
+                      <div class="heading-fader_component"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="padding-bottom padding-custom4"></div>
+                <p class="home-sustainability_text">
+                Step into the dynamic realm of Aarohan, the beating heart of innovation at <span class="text-color-white">Dronacharya Group of Institutions</span>. Aarohan isn't just a coding club; it's a thriving community where passionate minds converge to explore the vast landscapes of programming excellence. Within these walls, technology and creativity intertwine, creating an atmosphere that resonates with the fervor of innovation. Committed to fostering a culture of creativity and problem-solving, Aarohan stands as a guiding light for aspiring coders and tech enthusiasts. It's more than a club; it's an intellectual haven where the shared commitment to innovation transforms ideas into reality. Aarohan's significance lies in its ability to serve as a nexus for diverse talents, offering a platform for collaboration and learning.
+                <br></br>
+                At the crossroads of intellect and ingenuity, Aarohan propels its members into the ever-evolving world of coding. It goes beyond the conventional coding club experience, providing a holistic journey of growth and exploration. Through hackathons and workshops, Aarohan becomes a playground for continuous improvement, a space where boundaries are pushed, and new horizons are discovered. Guided by a collective enthusiasm for pushing boundaries, Aarohan is not just a forum; it's a launchpad for innovation. Here, coding is not a mere skill; it's a transformative journey that empowers individuals with the practical skills needed to thrive in the fast-paced tech landscape.
+                </p>
+                <div class="padding-bottom padding-custom4"></div>
+              </div>
+              <div class="home_globe-wrapper">
+                <div class="home_globe-animation-embed desktop-only-js w-embed w-iframe">
+                {/* <iframe class="element-style" src="https://player.vimeo.com/video/791149033?h=a0b62c3daa&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;loop=1&amp;autoplay=1&amp;background=1" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="" title="Hero" data-ready="true"></iframe> */}
+
+                </div>
+                {/* <img src="https://assets-global.website-files.com/637359c81e22b715cec245ad/63df6463dd106611b02ab325_Sustainablity.webp" loading="lazy" width="540" sizes="(max-width: 479px) 92vw, (max-width: 767px) 95vw, 100vw" alt="" srcset="https://assets-global.website-files.com/637359c81e22b715cec245ad/63df6463dd106611b02ab325_Sustainablity-p-500.webp 500w, https://assets-global.website-files.com/637359c81e22b715cec245ad/63df6463dd106611b02ab325_Sustainablity-p-800.webp 800w, https://assets-global.website-files.com/637359c81e22b715cec245ad/63df6463dd106611b02ab325_Sustainablity.webp 1080w" class="home_globe-mobile-img" /> */}
+
+              </div>
+              </div>
+              </div>
+              </div>
+              </div>
+      </section>
+
 
     
 
-      <div className="about-container">
+      {/* <div className="about-container">
         <div className="about-content">
           <h1>ABOUT US</h1>
           <p className="about-para">
@@ -198,7 +232,7 @@ const Index = () => {
             change.
           </p>
         </div>
-      </div>
+      </div> */}
 
       {/* About section end */}
 

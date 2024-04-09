@@ -74,7 +74,8 @@ const Index = () => {
                     </div>
                   </a>
                   <div className="padding-bottom padding-small">
-                  <h1 class="text-weight-semibold">WELCOME TO AAROHAN</h1>
+                  <h1 class="text-weight-semibold">WELCOME TO AAROHAN DGI</h1>
+                  <h1 class="text-weight-semibolds">Dronacharya Groups Of Institutions</h1>
                   <div class="padding-bottom padding-small"></div>
                   <div className="container-xsmall">
                     <div className="text-size-medium text-color-grey8">
@@ -158,7 +159,7 @@ const Index = () => {
           <h1>ABOUT US</h1>
           <p className="about-para">
             Step into the dynamic realm of Aarohan, the beating heart of
-            innovation at Dronacharya Group of Institutes. Aarohan isn't just a
+            innovation at Dronacharya Group of Institutions. Aarohan isn't just a
             coding club; it's a thriving community where passionate minds
             converge to explore the vast landscapes of programming excellence.
             Within these walls, technology and creativity intertwine, creating

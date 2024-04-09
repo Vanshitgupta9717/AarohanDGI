@@ -33,7 +33,7 @@ const Team = () => {
         <div className="members">
           <div className="boxes">
             <img src={Mentor} alt="Mentor" />
-            <h3>Parul Mam</h3>
+            <h3>Mrs. Parul Singh</h3>
             <h4>Mentor</h4>
           </div>
         </div>

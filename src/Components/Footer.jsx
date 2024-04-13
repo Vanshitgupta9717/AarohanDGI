@@ -17,7 +17,7 @@ const Footer = () => {
             <a href="https://www.instagram.com/aarohan_dgi/"><AiFillInstagram size={30} color="white"  /></a>
             <a href="https://www.linkedin.com/company/aarohan-dgi/"><FaLinkedin size={30} color="white"  /></a>
           </div>
-          <p>© 2023 DGI CODING CLUB. All rights reserved.</p>
+          <p>© 2024 DGI CODING CLUB. All rights reserved.</p>
         </div>
 
         <div className="quick-links">

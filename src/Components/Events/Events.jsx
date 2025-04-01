@@ -20,7 +20,6 @@ const Events = () => {
           <Link to="/events/CodeNexa">Details</Link>
         </div>
       </div>
-
         <div id="CodeNexa"></div>
     </>
   );

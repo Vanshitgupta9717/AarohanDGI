@@ -8,6 +8,7 @@ import Team from './Components/Team';
 import Events from './Components/Events/Events';
 import CodeZenith from './Components/Events/CodeZenith';
 import CodeNexa from './Components/Events/CodeNexa';
+import PathToGoogle from './Components/Events/PathToGoogle';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path='/events' element={<Events/>} />
         <Route path='/events/CodeZenith' element={<CodeZenith/>} />
         <Route path='/events/CodeNexa' element={<CodeNexa/>} />
+        <Route path='/events/PathToGoogle' element={<PathToGoogle/>} />
       </Routes>
       <Footer/>
     </Router>

@@ -2,8 +2,8 @@ import React, { useEffect } from "react";
 import "../Styles/Index.css";
 import "../Styles/Index-Responsive.css";
 import { Link } from "react-router-dom";
+import event3 from "./Images/Events/Path_to_Google.jpeg";
 import event1 from "./Images/Events/Codezinth.png";
-import event2 from "./Images/Events/CodeNexa.jpg";
 import Front from "./Images/Front.webp";
 
 const Index = () => {
@@ -345,14 +345,14 @@ const Index = () => {
 
       <div className="event-container">
         <div className="events">
-          <div className="Events">
+        <div className="Events">
             <div>
-              <img src={event1} alt="Codezenith" />
+              <img src={event3} alt="Pathway To Google" />
             </div>
           </div>
           <div className="Events">
             <div>
-              <img src={event2} alt="CodeNexa" />
+              <img src={event1} alt="Codezenith" />
             </div>
           </div>
         </div>

@@ -336,7 +336,7 @@ const Index = () => {
         </div>
       </div> */}
 
-      {/* About section end */}
+      {/* About section end */} 
 
       {/* Event section start */}
       <div className="eventhead">

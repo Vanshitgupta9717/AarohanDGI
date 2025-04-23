@@ -20,11 +20,14 @@
 }
 
 #Speakers-img{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
     max-width: 1024px;
     padding-top: 30px;
     padding-bottom: 50px;
     text-align: center;
-    margin: auto;
+    margin: 50px;
 
 }
 

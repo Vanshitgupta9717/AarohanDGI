@@ -5,7 +5,7 @@ const About = () => {
           <h2 id='aboutHead'>ABOUT US</h2>
           <p className="about-para">
             Step into the dynamic realm of Aarohan, the beating heart of
-            innovation at Dronacharya Group of Institutes. Aarohan isn't just a
+            innovation at Dronacharya Group of Institutions. Aarohan isn't just a
             coding club; it's a thriving community where passionate minds
             converge to explore the vast landscapes of programming excellence.
             Within these walls, technology and creativity intertwine, creating

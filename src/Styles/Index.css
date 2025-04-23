@@ -375,7 +375,12 @@ h1 {
 
 .eventhead{
   margin-top: 150px;
+  
 }
+.eventhead h1 {
+  margin-bottom:50px;
+}
+
 
 .Events img {
   height: 400px;

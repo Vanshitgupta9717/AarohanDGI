@@ -1,13 +1,12 @@
 import React from 'react'
 import event3 from "../Images/Events/Path_to_Google.jpeg";
-import speaker1 from "../Images/Events/CN_Speaker1.jpg"
 import "../../Styles/Events/Path_to_Google.css";
 
 const PathToGoogle = () => {
   return (
     <>
       
-      <h2 id="header">Path_to_Google</h2>
+      <h2 id="header">Pathway To Google</h2>
         <div id="Content">
           <img id="CN-img" src={event3} alt="Path_to_Google" />
 

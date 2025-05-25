@@ -35,7 +35,7 @@ const LogoDesign = () => {
                     * Visual aesthetics and impact<br />
                     * Scalability & adaptability as a logo<br /><br />
                     
-                    📤Submission Form : <a href="https://docs.google.com/forms/d/e/1FAIpQLSciA1RVpbsKKt8MUymCnSM5JgLAYTxguFRD8wY7GPB0AFDb1Q/viewform">Click Here</a> <br />
+                    📤Submission Form : <a href="https://docs.google.com/forms/d/e/1FAIpQLSciA1RVpbsKKt8MUymCnSM5JgLAYTxguFRD8wY7GPB0AFDb1Q/viewform" id='event-links'><b>Click Here</b></a> <br />
                     <br /><br />
                     🏆 Rewards <br />
                     The winner's logo will be officially featured across our platforms<br />
@@ -49,9 +49,9 @@ const LogoDesign = () => {
                     ⚠️ EXCLUSIVE ELIGIBILITY CRITERIA ! <br /><br />
                     🔹 You will be able to participate ONLY IF you have followed our social media handles! <br /> <br />
                     📍 Stay connected & never miss upcoming career-changing events & insights! <br />
-                    👉 WhatsApp Community: <a href="https://chat.whatsapp.com/JzyQ8HGzejEGiNrlM54d2D">Join Our WhatsApp Community</a> <br />
-                    👉 Instagram: <a href="https://www.instagram.com/aarohan_dgi?igsh=dzAxN3RlOGN1MHJz">Follow us on Instagram</a> <br />
-                    👉 LinkedIn: <a href="https://www.linkedin.com/company/aarohan-dgi/">Follow us on LinkedIn</a> <br />
+                    👉 WhatsApp Community: <a href="https://chat.whatsapp.com/JzyQ8HGzejEGiNrlM54d2D" id='event-links'>Join Our WhatsApp Community</a> <br />
+                    👉 Instagram: <a href="https://www.instagram.com/aarohan_dgi?igsh=dzAxN3RlOGN1MHJz"id='event-links'>Follow us on Instagram</a> <br />
+                    👉 LinkedIn: <a href="https://www.linkedin.com/company/aarohan-dgi/" id='event-links'>Follow us on LinkedIn</a> <br />
                 </div>
             </div>
 

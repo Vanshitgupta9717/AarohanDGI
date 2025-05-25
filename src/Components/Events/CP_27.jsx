@@ -28,7 +28,6 @@ const CP_27 = () => {
           ⏰ Time: 7:00 PM <br />
           💻  VENUE: Online <br/>
           📍 LIVE & INTERACTIVE – Don’t Miss Out!<br /><br />
-          🔗 Event Link: To Be Shared Soon !!
           <br /><br />
           ⚠️ EXCLUSIVE ENTRY CRITERIA! <br /><br />
           🔹 You will be able to attend the session ONLY IF you have followed our social media handles! <br /> <br />

@@ -10,6 +10,7 @@ import CodeZenith from './Components/Events/CodeZenith';
 import CodeNexa from './Components/Events/CodeNexa';
 import PathToGoogle from './Components/Events/PathToGoogle';
 import CP_27 from './Components/Events/CP_27';
+import LogoDesign from './Components/Events/LogoDesign';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route path='/events/CodeNexa' element={<CodeNexa/>} />
         <Route path='/events/PathToGoogle' element={<PathToGoogle/>} />
         <Route path='/events/CP_27' element={<CP_27/>} />
+        <Route path='/events/LogoDesign' element={<LogoDesign/>} />
       </Routes>
       <Footer/>
     </Router>

@@ -2,8 +2,8 @@ import React, { useEffect } from "react";
 import "../Styles/Index.css";
 import "../Styles/Index-Responsive.css";
 import { Link } from "react-router-dom";
-import event3 from "./Images/Events/Path_to_Google.jpeg";
 import event4 from "./Images/Events/CP_27-4.jpeg";
+import event5 from "./Images/Events/Logo_design.jpeg";
 import Front from "./Images/Front.webp";
 
 const Index = () => {
@@ -240,41 +240,41 @@ const Index = () => {
                   <div class="padding-bottom padding-custom4"></div>
                   <p class="home-sustainability_text">
                     <p className="about-para">Step into the dynamic realm of Aarohan, the beating heart of
-                    innovation at <strong>Dronacharya Group of Institution</strong></p>
+                      innovation at <strong>Dronacharya Group of Institution</strong></p>
 
-                    <br/>
+                    <br />
 
                     <p className="about-para">Aarohan isn't just a coding club; it's a thriving
-                    community where passionate minds converge to explore the
-                    vast landscapes of programming excellence. Within these
-                    walls, technology and creativity intertwine, creating an
-                    atmosphere that resonates with the fervor of innovation.
-                    Committed to fostering a culture of creativity and
-                    problem-solving, Aarohan stands as a guiding light for
-                    aspiring coders and tech enthusiasts. It's more than a club;
-                    it's an intellectual haven where the shared commitment to
-                    innovation transforms ideas into reality. Aarohan's
-                    significance lies in its ability to serve as a nexus for
-                    diverse talents, offering a platform for collaboration and
-                    learning.
-</p>
+                      community where passionate minds converge to explore the
+                      vast landscapes of programming excellence. Within these
+                      walls, technology and creativity intertwine, creating an
+                      atmosphere that resonates with the fervor of innovation.
+                      Committed to fostering a culture of creativity and
+                      problem-solving, Aarohan stands as a guiding light for
+                      aspiring coders and tech enthusiasts. It's more than a club;
+                      it's an intellectual haven where the shared commitment to
+                      innovation transforms ideas into reality. Aarohan's
+                      significance lies in its ability to serve as a nexus for
+                      diverse talents, offering a platform for collaboration and
+                      learning.
+                    </p>
 
-                    <br/>
+                    <br />
 
 
                     <p className="about-para">At the crossroads of intellect and ingenuity, Aarohan
-                    propels its members into the ever-evolving world of coding.
-                    It goes beyond the conventional coding club experience,
-                    providing a holistic journey of growth and exploration.
-                    Through hackathons and workshops, Aarohan becomes a
-                    playground for continuous improvement, a space where
-                    boundaries are pushed, and new horizons are discovered.
-                    Guided by a collective enthusiasm for pushing boundaries,
-                    Aarohan is not just a forum; it's a launchpad for
-                    innovation. Here, coding is not a mere skill; it's a
-                    transformative journey that empowers individuals with the
-                    practical skills needed to thrive in the fast-paced tech
-                    landscape.</p>
+                      propels its members into the ever-evolving world of coding.
+                      It goes beyond the conventional coding club experience,
+                      providing a holistic journey of growth and exploration.
+                      Through hackathons and workshops, Aarohan becomes a
+                      playground for continuous improvement, a space where
+                      boundaries are pushed, and new horizons are discovered.
+                      Guided by a collective enthusiasm for pushing boundaries,
+                      Aarohan is not just a forum; it's a launchpad for
+                      innovation. Here, coding is not a mere skill; it's a
+                      transformative journey that empowers individuals with the
+                      practical skills needed to thrive in the fast-paced tech
+                      landscape.</p>
                   </p>
                   <div class="padding-bottom padding-custom4"></div>
                 </div>
@@ -336,7 +336,7 @@ const Index = () => {
         </div>
       </div> */}
 
-      {/* About section end */} 
+      {/* About section end */}
 
       {/* Event section start */}
       <div className="eventhead">
@@ -345,17 +345,22 @@ const Index = () => {
 
       <div className="event-container">
         <div className="events">
-        <div className="Events">
-            <div>
-              <img src={event4} alt="Competitive Programming" />
+          <a href="/events/LogoDesign">
+            <div className="Events">
+              <div>
+                <img src={event5} alt="Logo Design" />
+              </div>
             </div>
-          </div>
-        <div className="Events">
-            <div>
-              <img src={event3} alt="Pathway To Google" />
+          </a>
+          <a href="/events/CP_27">
+            <div className="Events">
+              <div>
+                <img src={event4} alt="Competitive Programming" />
+              </div>
             </div>
-          </div>
-         
+          </a>
+
+
         </div>
       </div>
 

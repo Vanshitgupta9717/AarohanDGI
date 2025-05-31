@@ -32,9 +32,9 @@ const CP_27 = () => {
           ⚠️ EXCLUSIVE ENTRY CRITERIA! <br /><br />
           🔹 You will be able to attend the session ONLY IF you have followed our social media handles! <br /> <br />
           📍 Stay connected & never miss upcoming career-changing events & insights! <br />
-          👉 WhatsApp Community: <a href="https://chat.whatsapp.com/JzyQ8HGzejEGiNrlM54d2D">Join Our WhatsApp Community</a> <br />
-          👉 Instagram: <a href="https://www.instagram.com/aarohan_dgi?igsh=dzAxN3RlOGN1MHJz">Follow us on Instagram</a> <br />
-          👉 LinkedIn: <a href="https://www.linkedin.com/company/aarohan-dgi/">Follow us on LinkedIn</a> <br />
+          👉 WhatsApp Community: <a href="https://chat.whatsapp.com/JzyQ8HGzejEGiNrlM54d2D" id='event-links'>Join Our WhatsApp Community</a> <br />
+          👉 Instagram: <a href="https://www.instagram.com/aarohan_dgi?igsh=dzAxN3RlOGN1MHJz" id='event-links'>Follow us on Instagram</a> <br />
+          👉 LinkedIn: <a href="https://www.linkedin.com/company/aarohan-dgi/" id='event-links'>Follow us on LinkedIn</a> <br />
           </div>
         </div>
       

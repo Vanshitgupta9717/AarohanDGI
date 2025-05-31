@@ -1,6 +1,8 @@
 import React from 'react'
 import event4 from "../Images/Events/Logo_design.jpeg";
-import "../../Styles/Events/CP_27.css";
+
+import "../../Styles/Events/Logo_design.css";
+
 
 const LogoDesign = () => {
     return (
@@ -12,31 +14,11 @@ const LogoDesign = () => {
 
                 <div id="CNdetails">
                     🖌️ Aarohan Logo Making Competition
-                    🎉 Get ready to unleash your creativity!
-                    !<br /><br />
-                    Before submitting the form: <br />
-                    • Take a screenshot of your filled form (just before submitting).<br />
-                    • Post it as a story on Instagram.<br />
-                    • Tag us @aarohan.dgi in the story.<br />
-                    (We’ll be resharing all valid story entries!)<br />
-
-                    ❗ Note: If you don’t upload the story or don’t tag us, your form will not be accepted.<br /> <br />
+                    🎉 Get ready to unleash your creativity !!<br /><br />
                     📅 Important Dates <br />
                     * Form Opens: 25th May 2025 (Sunday) [ 12:00 PM ]<br />
-                    * Last Date to Submit: 27th May 2025 (Tuesday) [ 06:00 PM ]<br /><br />
-                    📁 File Submission Requirements<br />
-                    * File Format: JPEG (.jpg / .jpeg) or PDF form only<br />
-                    * Ensure the file is of high quality and clearly visible.<br /><br />
-
-                    🎨 Judging Criteria<br />
-                    Your designs will be judged on:<br />
-                    * Creativity & originality<br />
-                    * Relevance to coding and innovation<br />
-                    * Visual aesthetics and impact<br />
-                    * Scalability & adaptability as a logo<br /><br />
-                    
-                    📤Submission Form : <a href="https://docs.google.com/forms/d/e/1FAIpQLSciA1RVpbsKKt8MUymCnSM5JgLAYTxguFRD8wY7GPB0AFDb1Q/viewform" id='event-links'><b>Click Here</b></a> <br />
-                    <br /><br />
+                    * Last Date to Submit: 27th May 2025 (Tuesday) [ 06:00 PM ]<br />
+                    * Result: Announced on 31st May 2025 👇<br /><br />
                     🏆 Rewards <br />
                     The winner's logo will be officially featured across our platforms<br />
                     . Shoutout & certificates!<br />
@@ -45,13 +27,37 @@ const LogoDesign = () => {
                     2nd 🥈 - Cup<br />
                     3rd  🥉- Diary<br /><br />
 
-                    🔊 - The Results will be announced on 29th May Evening.<br /><br />
+
                     ⚠️ EXCLUSIVE ELIGIBILITY CRITERIA ! <br /><br />
                     🔹 You will be able to participate ONLY IF you have followed our social media handles! <br /> <br />
                     📍 Stay connected & never miss upcoming career-changing events & insights! <br />
                     👉 WhatsApp Community: <a href="https://chat.whatsapp.com/JzyQ8HGzejEGiNrlM54d2D" id='event-links'>Join Our WhatsApp Community</a> <br />
-                    👉 Instagram: <a href="https://www.instagram.com/aarohan_dgi?igsh=dzAxN3RlOGN1MHJz"id='event-links'>Follow us on Instagram</a> <br />
+                    👉 Instagram: <a href="https://www.instagram.com/aarohan_dgi?igsh=dzAxN3RlOGN1MHJz" id='event-links'>Follow us on Instagram</a> <br />
                     👉 LinkedIn: <a href="https://www.linkedin.com/company/aarohan-dgi/" id='event-links'>Follow us on LinkedIn</a> <br />
+                </div>
+            </div>
+            <div id="winners">
+                <div id="CNhead">Winners</div>
+                <div id="Winner">
+                    <div className="CNwinner">
+                        <h2>1st Place</h2>
+                        <h1>🥇</h1>
+                        <p>Anubhav Agarwal</p>
+                        <p>Prize: Aarohan T-shirt</p>
+                    </div>
+                    <div className="CNwinner">
+                        <h2>2nd Place</h2>
+                        <h1>🥈</h1>
+                        <p>Vedant Singh</p>
+                        <p>Prize: Cup</p>
+                    </div>
+                    <div className="CNwinner">
+                        <h2>3rd Place</h2>
+                        <h1>🥉</h1>
+
+                        <p>Aditi Baranwal</p>
+                        <p>Prize: Diary</p>
+                    </div>
                 </div>
             </div>
 

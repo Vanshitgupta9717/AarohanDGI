@@ -26,10 +26,10 @@ const CodeNexa = () => {
           🎙️ Insights from Google & Microsoft experts.<br />
           🎁 Exclusive goodies await the participants!<br /><br />
 
-          🔗 Event Link:  <a href="https://lu.ma/aarohan-event">Join Now</a><br /><br />
+          🔗 Event Link:  <a href="https://lu.ma/aarohan-event" id='event-links'>Join Now</a><br /><br />
 
           📣 Stay Connected:
-          Follow us on Instagram for updates and behind-the-scenes content: Follow Aarohan on Instagram - <a href="https://www.instagram.com/aarohan_dgi/">Instagram</a><br /><br />
+          Follow us on Instagram for updates and behind-the-scenes content: Follow Aarohan on Instagram - <a href="https://www.instagram.com/aarohan_dgi/" id='event-links'>Instagram</a><br /><br />
           </div>
         </div>
 

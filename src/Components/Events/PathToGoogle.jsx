@@ -27,11 +27,11 @@ const PathToGoogle = () => {
           🗓 Date: 5th April 2025<br />
           ⏰ Time: 7:00 PM – 8:00 PM<br />
           📍 LIVE & INTERACTIVE – Don’t Miss Out!<br /><br />
-          🔗 Event Link:  <a href=" https://teams.live.com/meet/9312108379191?p=hNmSFprjsY8vG99Oth">Join Now</a><br /><br />
+          🔗 Event Link:  <a href=" https://teams.live.com/meet/9312108379191?p=hNmSFprjsY8vG99Oth" id='event-links'>Join Now</a><br /><br />
 
 
           📣 Stay Connected:
-          Follow us on Instagram for updates and behind-the-scenes content: Follow Aarohan on Instagram - <a href="https://www.instagram.com/aarohan_dgi/">Instagram</a><br /><br />
+          Follow us on Instagram for updates and behind-the-scenes content: Follow Aarohan on Instagram - <a href="https://www.instagram.com/aarohan_dgi/" id='event-links'>Instagram</a><br /><br />
           </div>
         </div>
       

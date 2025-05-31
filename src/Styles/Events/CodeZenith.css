@@ -17,6 +17,9 @@
 #details{
     padding: 50px 0px 0px;
 }
+#event-links{
+    color: #7777dd;
+}
 
 @media screen and (max-width:1050px) {
     #Content{
